@@ -22,3 +22,13 @@ python mxmap.py -u "http://target.com/page?id=1" --stealth
 
 # Extraer bases de datos completas
 python mxmap.py -u "http://target.com/page?id=1" --dump-all
+
+🎮 Comandos avanzados
+# Modo berserker (fuerza bruta intensa)
+python mxmap.py -u "http://target.com/page.php?id=1" --level berserker
+
+# Extraer toda la base de datos
+python mxmap.py -u "http://target.com/page.php?id=1" --dump-all
+
+# Modo sigilo (evita detección)
+python mxmap.py -u "http://target.com/page.php?id=1" --level stealth
