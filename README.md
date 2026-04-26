@@ -1,20 +1,14 @@
-# 🇲🇽 MXlmap - El SQLi Tool más verga que sqlmap
+# 🇲🇽 MXlmap - Rompiendo madres desde México
 
-> *"Porque el software libre también se hace con huevos"*
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-## 🔥 Características que rompen la madre:
-- 🚀 Más rápido que sqlmap en detección ciega
-- 🛡️ Bypass automático de WAFs mexicanos (y los otros también)
-- 💥 Modo "Toda la carne al asador" para extracción masiva
-- 🎯 Payloads exclusivos para sistemas godínez
-- 🌮 Integración con taquería local (feature opcional)
+## 🚀 Instalación en 3 pasos
 
-## ⚡ Instalación rápidota:
 ```bash
-git clone https://github.com/Falconmx1/MXlmap
+git clone https://github.com/Falconmx1/MXlmap.git
 cd MXlmap
 pip install -r requirements.txt
-python mxmap.py -u "https://target.com/page?id=1"
 
 🎮 Modos de uso:
 # Modo normal (pa' no espantar el chango)
