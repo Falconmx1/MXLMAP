@@ -15,3 +15,16 @@ git clone https://github.com/Falconmx1/MXlmap
 cd MXlmap
 pip install -r requirements.txt
 python mxmap.py -u "https://target.com/page?id=1"
+
+🎮 Modos de uso:
+# Modo normal (pa' no espantar el chango)
+python mxmap.py -u "http://target.com/page?id=1"
+
+# Modo berserker (todo el poder)
+python mxmap.py -u "http://target.com/page?id=1" --level berserker
+
+# Modo sigilo (como el michi)
+python mxmap.py -u "http://target.com/page?id=1" --stealth
+
+# Extraer bases de datos completas
+python mxmap.py -u "http://target.com/page?id=1" --dump-all
